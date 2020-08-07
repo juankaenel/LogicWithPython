@@ -14,5 +14,6 @@ def pertenece_a(lista, elemento):
 
 print(pertenece_a([1,2,3,4],4))
 print(pertenece_a([1,2,3,4],5))
+print(pertenece_a([1,2,3,4],'pepe'))
 
 
