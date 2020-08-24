@@ -11,6 +11,9 @@ numeros = [2,3,4,7,10]
 #    print (''.join(str(n)),end='')
 
 def concatenar_lista(lista):
+    """
+    Emula el funcionamiento de join
+    """
     resultado = ''
     for n in lista:
         resultado += str(n)
